@@ -1,0 +1,460 @@
+/**************************
+GLOBAL STYLES
+**************************/
+
+html,
+body {
+  height: 100%;
+}
+
+h1, h2, h3, p {
+  color: #4d4d4d;
+}
+
+body {
+  padding-top: 150px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.content-start {
+  margin-top: 10px;
+}
+
+
+.img-portfolio {
+  margin-bottom: 30px;
+}
+
+.img-hover:hover {
+  opacity: 0.8;
+}
+
+/**************************
+* NAVBAR
+***************************/
+div.top-bar {
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid #007A08;
+}
+
+.top-bar-call-today {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.top-bar-social-icons {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.top-bar-call-today>a {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 600;
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+
+.top-bar-call-today>a:hover{
+  text-decoration: none;
+  color: #31CB00;
+  -webkit-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  transition: color 300ms linear;
+}
+
+.navbar, .navbar-inverse {
+  position: absolute;
+  top: 40px;
+  background-color: white;  
+  height: 100px;
+  border: none;
+  border-bottom: 5px solid #007A08;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: #4d4d4d;  
+  font-weight: 400;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  margin-top: 25px;
+  font-size: 24px;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active, .navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #119822;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #119822;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+
+
+/**************************
+* NAVBAR TOGGLE
+***************************/
+.navbar-toggle {
+  background-color: #fff;
+  border: none;
+}
+
+
+
+.navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:active .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+  background-color: #119822;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #119822;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  border: 1px solid #119822;
+}
+/*background color for drop down */
+#bs-example-navbar-collapse-1 > ul {
+  background-color: white;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: none;
+}
+
+/**************************
+* LOGO
+***************************/
+.tnt-logo {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 50px;
+}
+@media(max-width: 525px) {
+  .tnt-logo {
+    top: 0px;
+    left: 15px;
+  }
+  .top-bar-social-icons {
+    display: none;
+  }
+}
+
+/**************************
+* SOCIAL MEDIA ICONS
+***************************/
+.fa-facebook-square, .fa-twitter-square, .fa-google-plus-square {
+  color: #4d4d4d;
+  -webkit-transition: color 400ms linear;
+  -ms-transition: color 400ms linear;
+  transition: color 400ms linear;
+}
+
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-google-plus-square:hover {
+  color: #31CB00;
+  -webkit-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  transition: color 300ms linear;
+}
+
+
+
+/**************************
+* BLOCKQOUTE
+***************************/
+blockquote {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 50px 50px;
+  /* background-color: lightgray; */
+  border-left: 5px solid #43ac6a;
+}
+
+.shadow-quote{
+  -webkit-box-shadow: 7px 7px 25px 0px rgba(0,0,0,0.7);
+  -moz-box-shadow: 7px 7px 25px 0px rgba(0,0,0,0.7);
+  box-shadow: 7px 7px 25px 0px rgba(0,0,0,0.7);
+}
+
+
+/**************************
+* HOME PAGE CAROUSEL
+***************************/
+
+header.carousel {
+  height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+  height: 100%;
+}
+
+header.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/**************************
+* 404 PAGE 
+**************************/
+
+.error-404 {
+  font-size: 100px;
+}
+
+
+/**************************
+* PRICING PAGE 
+**************************/
+
+.price {
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.price sup {
+  top: -20px;
+  left: 2px;
+  font-size: 20px;
+}
+
+.period {
+  display: block;
+  font-style: italic;
+}
+
+/**************************
+* CONTACT PAGE
+**************************/
+.contact-well-div{
+  margin-top: 25px;
+}
+.contact-info-div{
+  margin-top: 25px;
+}
+.fa-paper-plane-o{
+  margin: 0 10px 0 10px;
+}
+
+#contactFormSubmitButton {
+  width: 75%;
+}
+
+
+/***************************
+* RESPONSIVE STYLES
+**************************/
+
+@media(max-width:991px) {
+  .customer-img,
+  .img-related {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:767px) {
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
+
+  header.carousel .carousel {
+    height: 70%;
+  }
+}
+
+/***************************
+* FOOTER
+**************************/
+.footer-distributed{
+	background-color: #9BC19D;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #4d4d4d;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #4d4d4d;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #4d4d4d;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #4d4d4d;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #fff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #4d4d4d;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #4d4d4d;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #4d4d4d;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #4d4d4d;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
