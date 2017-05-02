@@ -21,7 +21,7 @@
   <div class="container content-start">
 
     <!-- Marketing Icons Section -->
-    <div class="row">
+    <div class="row program-panels">
       <div class="col-lg-12">
         <h1 class="page-header">
           Focusing On What Matters
@@ -30,33 +30,30 @@
       <div class="col-md-4">
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Safe</h3>
+            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Safe Program</h3>
           </div>
           <div class="panel-body">
-            Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+           We guarantee a safe, drug and alcohol free house. A strict zero tolerance policy is enforced so that our men can have peace of mind and focus on their personal recovery in a secure and healthy environment. Our sober residence is supervised by a live-in manager who provides guidance, accountability and support. Residents are expected to comply with drug testing protocols and adhere to all policies and procedures during their stay in sober living.  
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Clean</h3>
+            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Clean House</h3>
           </div>
           <div class="panel-body">
-            Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+           TNT Housing offers well-maintained, private homes that come fully furnished and equipped with all appliances, laundry facilities, cable television, and wireless internet. There is plenty of space to relax in your down time, hang out with house mates, or enjoy a shared meal. Residents are held accountable to weekly house chores and to keeping their spaces tidy at all times. Allotted responsibilities help teach basic life skills and ensure a satisfactory living environment. 
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Zero Tolerance</h3>
+            <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Supportive Environment</h3>
           </div>
           <div class="panel-body">
-            Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            We offer a comfortable and supportive sober living environment where men learn to cope in the world without the use of drugs and alcohol while residing among peers with the same goal of maintaining sobriety. TNT Housing is a place where men practice healthy habits, face challenges, learn to have sober fun, and build meaningful relationships. Our provided structure and peer support teaches men the life skills they need to mature as adults and transition back to a life beyond treatment.
           </div>
         </div>
       </div>
@@ -67,15 +64,14 @@
     <div class="row">
       <div class="col-lg-12">
         <blockquote class="shadow-quote">
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit 
-          amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+         TNT Housing exists to provide an ethical and affordable, home-like environment for men ages 18 to 55 who have successfully completed treatment for substance dependence and have a sincere desire to remain in a supportive recovery community. 
         </blockquote>
       </div>
     </div>
 
 
     <!-- Portfolio Section -->
-    <div class="row">
+    <div class="row"><a id="photo-section"></a>
       <div class="col-lg-12">
         <h2 class="page-header">Property Photos</h2>
       </div>
