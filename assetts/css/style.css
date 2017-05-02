@@ -63,7 +63,7 @@ div.top-bar {
 
 .top-bar-call-today>a:hover{
   text-decoration: none;
-  color: #31CB00;
+  color:  #43ac6a;
   -webkit-transition: color 300ms linear;
   -ms-transition: color 300ms linear;
   transition: color 300ms linear;
@@ -92,19 +92,18 @@ div.top-bar {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active, .navbar-inverse .navbar-nav > li > a:focus {
-  background-color: #119822;
+  background-color:   #43ac6a;
   -webkit-transition: background-color 300ms linear;
   -ms-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: #119822;
+  background-color:  #43ac6a;
   -webkit-transition: background-color 300ms linear;
   -ms-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
 }
-
 
 
 /**************************
@@ -118,15 +117,15 @@ div.top-bar {
 
 
 .navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:active .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
-  background-color: #119822;
+  background-color:  #43ac6a;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
-  background-color: #119822;
+  background-color:  #43ac6a;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  border: 1px solid #119822;
+  border: 1px solid  #43ac6a;
 }
 /*background color for drop down */
 #bs-example-navbar-collapse-1 > ul {
@@ -168,7 +167,7 @@ div.top-bar {
 }
 
 .fa-facebook-square:hover, .fa-twitter-square:hover, .fa-google-plus-square:hover {
-  color: #31CB00;
+  color:  #43ac6a;
   -webkit-transition: color 300ms linear;
   -ms-transition: color 300ms linear;
   transition: color 300ms linear;
@@ -291,7 +290,7 @@ header.carousel .fill {
 * FOOTER
 **************************/
 .footer-distributed{
-	background-color: #9BC19D;
+	background-color:  #43ac6a;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
