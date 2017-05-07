@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Contact us today to learn about sober living and halfway house availability.">
     <meta name="author" content="TNT Sober Living">
+    <link rel="shortcut icon" type="image/ico" href="/assetts/img/favicon/favicon.ico" />
     <title>Contact TNT Sober Living</title>
     <!-- Bootstrap Core CSS -->
     <link href="/assetts/css/bootstrap.css" rel="stylesheet">
@@ -22,9 +23,11 @@
     <!-- Content Row -->
     <div class="row">
       <header class="contact-page-header">
-        <h1>Have Questions About Sober Living?</h1>
-        <p>Our sober living homes are settled in a quiet, residential neighborhood in Port St. Lucie, Florida. TNT Housing is in close proximity to jobs, stores, public transportation, local 12 Step Meetings and the beach. Contact us today for more information, to schedule a tour, or to reserve your spot at TNT Housing for men. We are here to help and available 24/7.</p>
+        <h1 class="page-header">
+          Focusing On What Matters
+        </h1>
       </header>
+      <p>Our sober living homes are settled in a quiet, residential neighborhood in Port St. Lucie, Florida. TNT Housing is in close proximity to jobs, stores, public transportation, local 12 Step Meetings and the beach. Contact us today for more information, to schedule a tour, or to reserve your spot at TNT Housing for men. We are here to help and available 24/7.</p>
       <div class="col-md-8">
         <div class="well bs-component contact-well-div">
 
@@ -46,7 +49,7 @@
                          data-validation-required-message="Please enter your email address." required>
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox" id="emailPreference"> I prefer to be contacted by email
+                      <input type="checkbox" id="prefersEmail"> I prefer to be contacted by email
                     </label>
                   </div>
                 </div>
@@ -58,7 +61,7 @@
                          data-validation-required-message="Please enter your phone number." required>
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox" id="telephonePreference"> I prefer to be contacted by telephone
+                      <input type="checkbox" id="prefersPhone"> I prefer to be contacted by telephone
                     </label>
                   </div>
                 </div>
@@ -79,13 +82,14 @@
               </div>
             </fieldset>
           </form>
+
         </div>
       </div>
       <!-- Contact Details Column -->
       <div class="col-md-4 col-md-offset-0 col-sm-offset-2">
         <div class="contact-info-div">
           <h3>Contact Details</h3>
-          <a href="tel:+7724184480" class="contact-view-phone"><p><i class="fa fa-phone"></i> 
+          <a href="tel:+17724184480" class="contact-view-phone"><p><i class="fa fa-phone"></i> 
             <abbr title="Phone">P</abbr>: (772) 418-4480</p></a>
           <p><i class="fa fa-envelope-o"></i> 
             <abbr title="Email">E</abbr>: <a href="mailto:info@tntsoberliving.com">info@tntsoberliving.com</a>
@@ -105,6 +109,8 @@
   <script src="/assetts/js/jquery.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="/assetts/js/bootstrap.min.js"></script>
+  <!-- Google Analytics -->
+  <script src="/assetts/js/google-analytics.js"></script>
   <!-- Contact Form JavaScript -->
   <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
   <script src="/assetts/js/jqBootstrapValidation.js"></script>
