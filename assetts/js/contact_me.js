@@ -1,9 +1,8 @@
 /*
-  Jquery Validation using jqBootstrapValidation
-   example is taken from jqBootstrapValidation docs 
-  */
+* Jquery Validation using jqBootstrapValidation
+* example is taken from jqBootstrapValidation docs 
+*/
 $(function() {
-
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -17,19 +16,27 @@ $(function() {
             var phone = $("input#phone").val();
             var email = $("input#email").val();
             var message = $("textarea#message").val();
+            var prefersEmail = $("input#prefersEmail").val();
+            if(prefersEmail) prefersEmail = "Yes";
+            else prefersEmail = "No";
+            var prefersPhone= $("prefersPhone").val();
+            if(prefersPhone) prefersPhone = "Yes";
+            else prefersPhone = "No";
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./bin/contact_me.php",
+                url: "../../bin/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    prefersEmail: prefersEmail,
+                    prefersPhone:prefersPhone
                 },
                 cache: false,
                 success: function() {
@@ -61,7 +68,6 @@ $(function() {
             return $(this).is(":visible");
         },
     });
-
     $("a[data-toggle=\"tab\"]").click(function(e) {
         e.preventDefault();
         $(this).tab("show");
