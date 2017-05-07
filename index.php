@@ -7,6 +7,7 @@
     <meta name="description" content="TNT Sober Living provides men with safe, clean, sober homes that encourage healthy living and
                                       promote recovery from drugs and alcohol">
     <meta name="author" content="TNT Sober Living">
+    <link rel="shortcut icon" type="image/ico" href="/assetts/img/favicon/favicon.ico" />
     <title>TNT Sober Living</title>
     <!-- Bootstrap Core CSS -->
     <link href="/assetts/css/bootstrap.css" rel="stylesheet">
@@ -15,7 +16,7 @@
     <link href="/assetts/css/style.css" rel="stylesheet">
   </head>
 
-  <?php include_once('/templates/navbar.html'); ?>
+  <?php include_once('templates/navbar.html'); ?>
 
   <!-- Page Content -->
   <div class="container content-start">
@@ -33,7 +34,7 @@
             <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Safe Program</h3>
           </div>
           <div class="panel-body">
-           We guarantee a safe, drug and alcohol free house. A strict zero tolerance policy is enforced so that our men can have peace of mind and focus on their personal recovery in a secure and healthy environment. Our sober residence is supervised by a live-in manager who provides guidance, accountability and support. Residents are expected to comply with drug testing protocols and adhere to all policies and procedures during their stay in sober living.  
+            We guarantee a safe, drug and alcohol free house. A strict zero tolerance policy is enforced so that our men can have peace of mind and focus on their personal recovery in a secure and healthy environment. Our sober residence is supervised by a live-in manager who provides guidance, accountability and support. Residents are expected to comply with drug testing protocols and adhere to all policies and procedures during their stay in sober living.  
           </div>
         </div>
       </div>
@@ -43,7 +44,7 @@
             <h3 class="panel-title"><i class="fa fa-check fa-2x" aria-hidden="true"></i> Clean House</h3>
           </div>
           <div class="panel-body">
-           TNT Housing offers well-maintained, private homes that come fully furnished and equipped with all appliances, laundry facilities, cable television, and wireless internet. There is plenty of space to relax in your down time, hang out with house mates, or enjoy a shared meal. Residents are held accountable to weekly house chores and to keeping their spaces tidy at all times. Allotted responsibilities help teach basic life skills and ensure a satisfactory living environment. 
+            TNT Housing offers well-maintained, private homes that come fully furnished and equipped with all appliances, laundry facilities, cable television, and wireless internet. There is plenty of space to relax in your down time, hang out with house mates, or enjoy a shared meal. Residents are held accountable to weekly house chores and to keeping their spaces tidy at all times. Allotted responsibilities help teach basic life skills and ensure a satisfactory living environment. 
           </div>
         </div>
       </div>
@@ -64,45 +65,33 @@
     <div class="row">
       <div class="col-lg-12">
         <blockquote class="shadow-quote">
-         TNT Housing exists to provide an ethical and affordable, home-like environment for men ages 18 to 55 who have successfully completed treatment for substance dependence and have a sincere desire to remain in a supportive recovery community. 
+          TNT Housing exists to provide an ethical and affordable, home-like environment for men ages 18 to 55 who have successfully completed treatment for substance dependence and have a sincere desire to remain in a supportive recovery community. 
         </blockquote>
       </div>
     </div>
-
+    
     <!-- Portfolio Section -->
     <div class="row"><a id="photo-section"></a>
       <div class="col-lg-12">
         <h2 class="page-header">Property Photos</h2>
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-front-2-500x300.jpg" alt="Sober Living in Port St Lucie">
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-living-room-500x300.jpg" alt="Hickory Halfway House offers safe recovery foundation">
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-bedroom-2-500x300.jpg" alt="Men's recovery home Port Saint Lucie Florida">
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-bed-4-500x300.jpg" alt="Men's halfway house bedroom">
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-dining-room-500x300.jpg" alt="TNT Sober Living House dining room">
       </div>
       <div class="col-md-4 col-sm-6">
-        <a href="portfolio-item.html">
-          <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-        </a>
+        <img class="img-responsive img-portfolio img-hover" src="/assetts/img/hickory/hickory-bedroom-3-500x300.jpg" alt="Halfway house for men in early recover">
       </div>
     </div>
     <!-- /.row -->
@@ -110,13 +99,16 @@
   </div>
   <!-- /.container -->
 
-  <?php require_once('/templates/footer.html'); ?>
+  <?php require_once('templates/footer.html'); ?>
 
   <!-- jQuery -->
   <script src="/assetts/js/jquery.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
   <script src="/assetts/js/bootstrap.min.js"></script>
+  
+  <!-- Google Analytics -->
+  <script src="/assetts/js/google-analytics.js"></script>
 
   </body>
 
